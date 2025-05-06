@@ -17,6 +17,7 @@ map using AMCL for localization, A* for global path planning, and DWA for obstac
    - The robot then followed the path while avoiding dynamically avoiding obstacles
   
 ##Evaluation
+
 A* algorithm provided optimal path and successfully navigated to the set target goal. as seen in the graph
 
 ![Picture1](https://github.com/user-attachments/assets/9203f09a-8194-493b-9cc9-e28471940484)
