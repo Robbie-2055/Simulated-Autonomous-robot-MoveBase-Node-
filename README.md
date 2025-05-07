@@ -1,4 +1,4 @@
-# Simulated-Autonomous-robot-MoveBase-Node-
+# Simulated Autonomous Robot using the ROS 1 MoveBase node
 This project implements an autonomous mobile robot navigation system using the ROS Navigation Stack.
 A simulated TurtleBot3 robot navigates safely and efficiently from a start to a goal location on a 2D 
 map using AMCL for localization, A* for global path planning, and DWA for obstacle avoidance.
