@@ -31,24 +31,6 @@ The system Integrates:
    ![Picture3](https://github.com/user-attachments/assets/4650b9e2-ccb4-422d-821b-8770609302af)
 
 
-## How to use
-1. Install ROS noetic and TurtleBot3 package
-   
-2. Clone repository
-   * git clone
-   * cd
-
-3. Build workspace
-   * catkin_make
-   * source devel/setup.bash
-  
-4. Launch simulation
-   *
-   *
-   
-6. Open RViz and set a goal by clicking the “2D Nav Goal” tool.
-
-
 ## Evaluation
 
 The navigation system was tested in simulation, and the robot successfully reached its goals by computing optimal paths using the A* algorithm. The DWA planner handled real-time obstacle avoidance effectively.
