@@ -3,6 +3,9 @@ This project implements an autonomous mobile robot navigation system using the R
 A simulated TurtleBot3 robot navigates safely and efficiently from a start to a goal location on a 2D 
 map using AMCL for localization, A* for global path planning, and DWA for obstacle avoidance.
 
+![Picture4](https://github.com/user-attachments/assets/068b111d-90bf-4153-a45c-c910e23990d6)
+
+
 The system Integrates:
 * Gmapping for mapping
 * AMCL for localisation
