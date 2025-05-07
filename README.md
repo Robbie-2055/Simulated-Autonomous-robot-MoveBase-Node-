@@ -14,7 +14,7 @@ map using AMCL for localization, A* for global path planning, and DWA for obstac
 2. **Localisation**
    - The AMCL node was utilised to estimate the robots's position and orientation on a staic map
 
-<img width="155" alt="Picture2" src="https://github.com/user-attachments/assets/3cb64c47-13b2-46df-9b57-76711de26896" />
+<img width="300" alt="Picture2" src="https://github.com/user-attachments/assets/3cb64c47-13b2-46df-9b57-76711de26896" />
 
 
 3. **Navigation**
