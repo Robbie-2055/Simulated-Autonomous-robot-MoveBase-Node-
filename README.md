@@ -3,7 +3,13 @@ This project implements an autonomous mobile robot navigation system using the R
 A simulated TurtleBot3 robot navigates safely and efficiently from a start to a goal location on a 2D 
 map using AMCL for localization, A* for global path planning, and DWA for obstacle avoidance.
 
-## Functionality
+The system Integrates:
+* Gmapping for mapping
+* AMCL for localisation
+* A* for flobal path planning
+* DWA (Dynamic Window Approach) for obstacle avoidance
+
+## Key features
 1. **Mapping**
    - Manually teleoperate the robot around the environment to craete a map using gmappng
    - Save the generated map after navigation
@@ -45,7 +51,7 @@ map using AMCL for localization, A* for global path planning, and DWA for obstac
 
 ## Evaluation
 
-A* algorithm provided optimal path and successfully navigated to the set target goal. as seen in the graph
+The navigation system was tested in simulation, and the robot successfully reached its goals by computing optimal paths using the A* algorithm. The DWA planner handled real-time obstacle avoidance effectively.
 
    ![Picture1](https://github.com/user-attachments/assets/9203f09a-8194-493b-9cc9-e28471940484)
 
