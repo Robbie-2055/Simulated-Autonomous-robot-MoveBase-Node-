@@ -37,3 +37,16 @@ The navigation system was tested in simulation, and the robot successfully reach
 
    ![Picture1](https://github.com/user-attachments/assets/9203f09a-8194-493b-9cc9-e28471940484)
 
+
+## Acknowledgements
+* This project was developed with the help of the simulation tools provided by The Construct – an online platform for learning and developing robotics applications using ROS in simulation. I was able to run my ROS project using this online platform even using my windows PC.
+* Prior to developing this project, I as able tak on the ROS navigation course on the construct which gave me a base understanding of navigation in ROS 1.
+
+## Future developments
+As ROS 1 approaches its end-of-life, the next major step will be to transition this project to ROS 2 and implement navigation using the Nav2 stack. Additional goals include:
+
+* Enhancing path planning and localization with ROS 2 features
+* Integrating real-time obstacle avoidance with improved simulation fidelity
+* Exploring behavior trees and lifecycle management in Nav2
+
+
