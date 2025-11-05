@@ -14,19 +14,24 @@ The system Integrates:
 
 ## Key features
 1. **Mapping**
-   - Manually teleoperate the robot around the environment to craete a map using gmappng
+   - Manually teleoperate the robot around the environment to craete a map using gmapping
    - Save the generated map after navigation
 
     ![1629887603284](https://github.com/user-attachments/assets/5bcdd4c2-d55e-489a-b6ea-8a6af38cb9fc)
+   
+<img width="111" height="100" alt="map 1" src="https://github.com/user-attachments/assets/c64bb1ec-d9f8-4822-a214-a82912057fdc" />
+
+<img width="191" height="89" alt="map 2" src="https://github.com/user-attachments/assets/ddbcfeaf-f52a-4fc1-a705-28634c27b9cb" />
 
 
-2. **Localisation**
+
+3. **Localisation**
    - The AMCL node was utilised to estimate the robots's position and orientation on a staic map
 
     <img width="300" alt="Picture2" src="https://github.com/user-attachments/assets/3cb64c47-13b2-46df-9b57-76711de26896" />
 
 
-3. **Navigation**
+4. **Navigation**
    - In Rviz, the target gaol pose was set using the 2D goal pose tool
    - The Move_base node computed the path using the A* and sent velocity commands via the DWA
    - The robot then followed the path while avoiding dynamically avoiding obstacles
